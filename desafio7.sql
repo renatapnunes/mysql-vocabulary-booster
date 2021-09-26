@@ -8,4 +8,5 @@ SELECT
 FROM
     hr.employees e
         INNER JOIN
-    hr.job_history jh ON e.EMPLOYEE_ID = jh.EMPLOYEE_ID;
+    hr.job_history jh ON e.EMPLOYEE_ID = jh.EMPLOYEE_ID
+ORDER BY `Nome completo`, `Data de início do cargo`;
